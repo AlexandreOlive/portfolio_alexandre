@@ -1,0 +1,166 @@
+<!DOCTYPE html> <!-- Informa ao navegador que o documento usa HTML5. -->
+<html lang="pt-BR"> <!-- Define o idioma principal da página como português do Brasil. -->
+<head> <!-- Contém metadados, título e referências a arquivos externos. -->
+  <meta charset="UTF-8"> <!-- Permite exibir corretamente acentos e caracteres especiais. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Faz o layout se adaptar à largura da tela do dispositivo. -->
+  <meta name="description" content="Portfólio profissional de Alexandre Correa de Oliveira — redes, infraestrutura e desenvolvimento."> <!-- Descrição usada por mecanismos de busca e prévias. -->
+  <meta name="theme-color" content="#07111f"> <!-- Sugere a cor da interface do navegador em dispositivos compatíveis. -->
+  <title>Alexandre Correa de Oliveira | Redes & Desenvolvimento</title> <!-- Texto exibido na aba do navegador. -->
+  <link rel="stylesheet" href="./css/style.css"> <!-- Carrega a folha de estilos externa. -->
+  <script src="./js/port.js" defer></script> <!-- Carrega o JavaScript externo; defer aguarda a leitura do HTML. -->
+</head>
+<body>
+  <header class="site-header"> <!-- Cabeçalho com identidade visual e navegação principal. -->
+    <a class="brand" href="#inicio" aria-label="Ir para o início">ACO<span>.</span></a>
+    <nav class="main-nav" aria-label="Navegação principal"> <!-- Agrupa os links de navegação; aria-label ajuda leitores de tela. -->
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="header-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main> <!-- Reúne o conteúdo principal e único da página. -->
+    <section class="hero" id="inicio"> <!-- Banner principal (hero), com título, apresentação e chamadas para ação. -->
+      <div class="hero-grid" aria-hidden="true"> <!-- Grade decorativa; aria-hidden oculta o enfeite de leitores de tela. --></div>
+      <div class="hero-glow hero-glow-one" aria-hidden="true"> <!-- Mancha de luz decorativa do banner. --></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"> <!-- Segunda luz decorativa do banner. --></div>
+      <div class="hero-content"> <!-- Conteúdo textual do banner. -->
+        <p class="eyebrow"><span class="status-dot"></span> PORTFÓLIO PROFISSIONAL</p>
+        <h1>Conectando <span>infraestrutura</span>, tecnologia e desenvolvimento.</h1>
+        <p class="hero-description">
+          Alexandre Correa de Oliveira — profissional de Tecnologia da Informação,
+          com foco em redes, infraestrutura, segurança e desenvolvimento de soluções.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">→</span></a>
+          <a class="button button-ghost" href="#contato">Entrar em contato</a>
+        </div>
+        <div class="hero-tags" aria-label="Áreas de atuação">
+          <span>Redes</span><span>Infraestrutura</span><span>Desenvolvimento</span><span>Automação</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true"> <!-- Ilustração abstrata de tecnologia, apenas decorativa. -->
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="core"><span>ACO</span><small>TECH</small></div>
+        <span class="node node-a">NET</span>
+        <span class="node node-b">DEV</span>
+        <span class="node node-c">SEC</span>
+        <span class="node node-d">SYS</span>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span></span> Role para explorar</a>
+    </section>
+
+    <section class="section about-section" id="sobre"> <!-- Seção de apresentação profissional. -->
+      <div class="section-heading">
+        <p class="eyebrow">01 / SOBRE</p>
+        <h2>Tecnologia com visão <span>integrada.</span></h2>
+      </div>
+      <div class="about-panel">
+        <div class="about-mark" aria-hidden="true">{"</>"}</div>
+        <div>
+          <h3>Olá, sou Alexandre.</h3>
+          <p>
+            Tenho formação em Gestão da Tecnologia da Informação e especialização em
+            Projetos de Rede e Computação em Nuvem. Meu interesse profissional reúne
+            infraestrutura de redes, segurança da informação, desenvolvimento de software
+            e automação de processos.
+          </p>
+          <p>
+            Este espaço apresenta conhecimentos e projetos relacionados à tecnologia.
+            O conteúdo pode ser atualizado continuamente conforme novas experiências e soluções.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades"> <!-- Seção de competências organizadas em cartões responsivos. -->
+      <div class="section-heading">
+        <p class="eyebrow">02 / COMPETÊNCIAS</p>
+        <h2>Habilidades <span>técnicas.</span></h2>
+        <p class="section-intro">Áreas e ferramentas presentes no meu repertório técnico.</p>
+      </div>
+      <div class="skills-grid"> <!-- Grade CSS que reorganiza os cartões conforme a largura da tela. -->
+        <article class="skill-card skill-blue">
+          <div class="card-icon" aria-hidden="true">⌘</div>
+          <h3>Redes</h3>
+          <p>TCP/IP, VLAN, VPN, BGP, OSPF, Firewalls, Wireshark e SNMP.</p>
+          <span class="card-index">01</span>
+        </article>
+        <article class="skill-card skill-purple">
+          <div class="card-icon" aria-hidden="true">◈</div>
+          <h3>Segurança</h3>
+          <p>IDS/IPS, análise de tráfego, criptografia e segurança de perímetro.</p>
+          <span class="card-index">02</span>
+        </article>
+        <article class="skill-card skill-cyan">
+          <div class="card-icon" aria-hidden="true">{ }</div>
+          <h3>Desenvolvimento</h3>
+          <p>Python, JavaScript, Bash, APIs REST, Git e Docker.</p>
+          <span class="card-index">03</span>
+        </article>
+        <article class="skill-card skill-pink">
+          <div class="card-icon" aria-hidden="true">⚙</div>
+          <h3>Automação</h3>
+          <p>Ansible, Terraform, PowerShell e CI/CD.</p>
+          <span class="card-index">04</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos"> <!-- Seção que apresenta projetos e estudos técnicos. -->
+      <div class="section-heading">
+        <p class="eyebrow">03 / PORTFÓLIO</p>
+        <h2>Projetos em <span>destaque.</span></h2>
+        <p class="section-intro">Exemplos de soluções e estudos técnicos.</p>
+      </div>
+      <div class="projects-grid"> <!-- Grade dos cartões de projetos. -->
+        <article class="project-card">
+          <div class="project-top"><span>PYTHON · SNMP · DASHBOARD</span><span class="project-number">01</span></div>
+          <div class="project-art art-network" aria-hidden="true"><span>●</span><i></i><b></b><em></em></div>
+          <h3>Monitoramento de Rede</h3>
+          <p>Script em Python para coleta de métricas SNMP de dispositivos de rede e visualização em dashboard com Flask e Chart.js.</p>
+          <span class="project-type">Monitoramento & observabilidade</span>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>ANSIBLE · FIREWALL</span><span class="project-number">02</span></div>
+          <div class="project-art art-security" aria-hidden="true"><span>◇</span><i></i><b></b></div>
+          <h3>Automação de Firewalls</h3>
+          <p>Playbooks Ansible para padronização e automação de regras de firewall em ambientes de rede.</p>
+          <span class="project-type">Infraestrutura como código</span>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>NODE.JS · API REST</span><span class="project-number">03</span></div>
+          <div class="project-art art-code" aria-hidden="true"><span>{ API }</span><i></i><b></b></div>
+          <h3>API de Gestão de Endereços IP</h3>
+          <p>API REST em Node.js para alocação, consulta e liberação de endereços IP, com documentação OpenAPI.</p>
+          <span class="project-type">Desenvolvimento backend</span>
+        </article>
+      </div>
+      <p class="note">Observação: mantenha nos projetos apenas atividades que você efetivamente desenvolveu ou consegue demonstrar.</p>
+    </section>
+
+    <section class="contact-section" id="contato"> <!-- Área com canais de contato profissional. -->
+      <div class="contact-content">
+        <p class="eyebrow">04 / CONTATO</p>
+        <h2>Vamos construir algo <span>interessante?</span></h2>
+        <p>Estou aberto a conversas sobre oportunidades profissionais, tecnologia e projetos.</p>
+        <a class="button button-primary" href="mailto:Oliveira_jason@hotmail.com">Enviar e-mail <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/alexandrecorreadeoliver" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+        <a href="https://github.com/AlexandreOlive" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+        <a href="mailto:Oliveira_jason@hotmail.com">E-mail <span>↗</span></a>
+      </div>
+    </section>
+  </main> <!-- Fim do conteúdo principal. -->
+
+  <footer class="site-footer"> <!-- Rodapé com identificação e áreas de atuação. -->
+    <span>© <span id="current-year">2026</span> Alexandre Correa de Oliveira</span>
+    <span>Redes · Infraestrutura · Desenvolvimento</span>
+  </footer>
+</body> <!-- Fim do conteúdo visível da página. -->
+</html> <!-- Fim do documento HTML. -->

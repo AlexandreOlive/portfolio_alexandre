@@ -1,0 +1,22 @@
+PORTFÓLIO ALEXANDRE — VERSÃO COMENTADA
+
+ESTRUTURA
+- index.html: estrutura semântica HTML5, com comentários explicativos nos principais elementos.
+- css/style.css: aparência visual, banner tecnológico, cartões em degradê e regras responsivas.
+- js/port.js: interações JavaScript comentadas passo a passo.
+
+COMO EXECUTAR
+1. Extraia a pasta do ZIP.
+2. Abra a pasta no VS Code.
+3. Abra index.html com Live Server (ou abra diretamente no navegador).
+4. Para testar a versão mobile, use as ferramentas de desenvolvedor do navegador e ative a simulação de celular.
+
+CORREÇÕES E OBSERVAÇÕES
+- O HTML aponta para ./css/style.css e ./js/port.js usando caminhos relativos à pasta do index.html.
+- O JavaScript externo não deve conter as tags <script>; elas ficam no HTML. O arquivo .js contém somente JavaScript.
+- O script usa defer, portanto não precisa aguardar DOMContentLoaded para encontrar os elementos; o evento foi mantido como proteção didática.
+- O e-mail foi corrigido para mailto:Oliveira_jason@hotmail.com.
+- O fechamento incorreto </h4> no terceiro projeto foi corrigido para </h3>.
+- O ano do rodapé é preenchido automaticamente pelo JavaScript.
+- Confira e substitua qualquer informação de experiência, projeto ou ferramenta que não corresponda à sua vivência real.
+- A fonte Google Fonts depende de conexão com a internet; o restante do layout usa fontes alternativas.
